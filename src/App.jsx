@@ -84,6 +84,7 @@ function App() {
       <div className="pattern bg-[url(./BG.png)]">
         <div className="wrapper">
           <header className="">
+            <img src="./logo.svg" alt="logo" className="w-[140px] h-[140px]" />
             <img src="./hero.png" alt="Hero Banner" />
             <h1>
               Find <span className="text-gradient">Movies</span> You'll Enjoy
@@ -92,7 +93,7 @@ function App() {
             <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
           </header>
           {trendingMovies.length > 0 && (
-            <section className="mt-2 trending">
+            <section className="mt-10 trending">
               <h2>Trending Movies</h2>
               <ul>
                 {trendingMovies.map((movie, index) => (
