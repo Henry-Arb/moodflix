@@ -2,7 +2,7 @@
 
 Search movies 1000s of movies available on the platform and see what trending movies are out there based on a dynamic algorithm.
 
-**Link to project:** https://moodflix.henry-arb.com/
+**Link to project:** http://moodflix.henry-arb.com/
 
 ![alt text](image.png)
 
